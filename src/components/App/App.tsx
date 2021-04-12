@@ -12,8 +12,7 @@ function App() {
         <Exchange />
       </SC.Main>
       <SC.Footer>
-        Powered by{" "}
-        <SC.A href="https://exchangeratesapi.io">Exchangeratesapi.io</SC.A>
+        Powered by <SC.A href="https://ratesapi.io">ratesapi.io</SC.A>
       </SC.Footer>
     </SC.App>
   );
