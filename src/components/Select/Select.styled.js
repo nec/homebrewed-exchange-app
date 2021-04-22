@@ -6,7 +6,7 @@ export const Label = styled.label`
 
 export const Select = styled.select`
   appearance: none;
-  padding: 0.25em 1.5em 0.25em 0.5em;
+  padding: 0.27em 1.5em 0.27em 0.5em;
   position: relative;
   font-size: 50px;
   color: #fff;
@@ -19,6 +19,9 @@ export const Select = styled.select`
   background-position: right 0.6em top 50%, 0 0;
   background-size: 0.5em auto, 100%;
   transition: all 0.5s;
+  option {
+    color: #000;
+  }
   &:focus {
     outline: none;
     box-shadow: inset 0 0 0 3px skyblue;
