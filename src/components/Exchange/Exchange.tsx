@@ -15,7 +15,7 @@ function Exchange() {
   const [valueFrom, setValFrom] = useState<number | string>(1);
   const [valueTo, setValueTo] = useState<number | string>(0);
   const [currencyFrom, setСurrencyFrom] = useState("USD");
-  const [currencyTo, setСurrencyTo] = useState("RUB");
+  const [currencyTo, setСurrencyTo] = useState("PHP");
 
   const calculate = useCallback((): number | string => {
     const rateFrom = bankData.rates[currencyFrom];
